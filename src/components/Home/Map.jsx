@@ -7,8 +7,8 @@ function Map() {
   });
   return (
     <>
-      <div>
-        <div className="relative w-full pb-10">
+      <div className="lg:bg-transparent bg-[#e7f6fd] ">
+        <div className="relative w-full ">
           <iframe
             width="100%vw"
             height="800"
@@ -19,8 +19,8 @@ function Map() {
             id="gmap_canvas"
             src="https://maps.google.com/maps?width=595&amp;height=411&amp;hl=en&amp;q=sdf%2040026+(sf)&amp;t=&amp;z=12&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
           ></iframe>
-          <div className="absolute top-28 left-16">
-            <div className="w-96 bg-white shadow-sm hover:shadow-sml hover:transition-all hover:delay-75 hover:ease-in-out border border-gray-100  rounded-xl">
+          <div className="lg:absolute lg:top-28 lg:left-16 lg:mt-0 mt-5 lg:mx-0 mx-5">
+            <div className="lg:w-96 bg-white shadow-sm hover:shadow-sml hover:transition-all hover:delay-75 hover:ease-in-out border border-gray-100  rounded-xl">
               <div>
                 <img
                   className="w-full h-72 rounded-t-xl "

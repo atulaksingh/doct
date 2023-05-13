@@ -4,11 +4,11 @@ function Appointment() {
   return (
     <div className=" bg-white">
       <div className="container mx-auto py-10 ">
-        <div className="grid grid-cols-3 gap-10 mx-14">
+        <div className="grid grid-cols-1 lg:grid-cols-3 gap-10 mx-5 lg:mx-14">
           <div className="col-span-1 shadow-md hover:shadow-2xl hover:transition-all hover:delay-75 hover:ease-in-out border border-gray-100  rounded-xl">
             <div>
               <img
-                className="w-full h-60 rounded-t-xl "
+                className="w-full h-72 lg:h-60 rounded-t-xl "
                 src="https://res.cloudinary.com/dt0j68vdr/image/upload/v1683198590/card_image_home_03-02_jq5n2i.jpg"
               />
               <div className="p-5 mb-5">
@@ -32,7 +32,7 @@ function Appointment() {
           <div className="col-span-1 shadow-md hover:shadow-2xl hover:transition-all hover:delay-75 hover:ease-in-out border border-gray-100  rounded-xl">
             <div>
               <img
-                className="w-full h-60 rounded-t-xl "
+                className="w-full h-72 lg:h-60 rounded-t-xl "
                 src="https://res.cloudinary.com/dt0j68vdr/image/upload/v1683198590/card_image_home_03-02_jq5n2i.jpg"
               />
               <div className="p-5">
@@ -56,7 +56,7 @@ function Appointment() {
           <div className="col-span-1 shadow-md hover:shadow-2xl hover:transition-all hover:delay-75 hover:ease-in-out border border-gray-100  rounded-xl">
             <div>
               <img
-                className="w-full h-60 rounded-t-xl "
+                className="w-full h-72 lg:h-60 rounded-t-xl "
                 src="https://res.cloudinary.com/dt0j68vdr/image/upload/v1683198590/card_image_home_03-02_jq5n2i.jpg"
               />
               <div className="p-5">

@@ -4,13 +4,14 @@ import { BsCheck2 } from "react-icons/bs";
 function PS() {
   return (
     <>
-      <div className="pl-14 pt-48 bg-[#e7f6fd] ">
-        <div className="relative">
+      <div className="lg:pl-14 pt-16 bg-[#e7f6fd] ">
+        <div className="relative w-full h-[100vh] lg:h-full text-white">
           <img
-            className="w-full h-[100vh]"
+            // className="w-full h-[100vh]"
             src="https://res.cloudinary.com/dt0j68vdr/image/upload/v1683271219/background_home_03-02_id27ed.jpg"
+            style={{width:"100%" , height: "100%",objectFit:"cover" }}
           />
-          <div className="absolute top-10 left-24 w-[40%] py-20">
+          <div className="absolute top-3 h-[100vh] lg:h-full lg:top-10 lg:left-24 w-[100%] lg:w-[40%] py-20 px-5 lg:px-0 ">
             <h1 className="text-[1.125rem] text-[#01cab8] font-[500] py-2">
               Product & Services
             </h1>
@@ -52,7 +53,7 @@ function PS() {
                 <div className="">
                   <BsCheck2
                     color="white"
-                    className="bg-[#23b5d1]  p-0.5 rounded-full"
+                    className="bg-[#01cab8]  p-0.5 rounded-full"
                     size={22}
                   />
                 </div>
