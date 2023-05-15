@@ -13,7 +13,7 @@ function Hero() {
         }}
       >
         <div className="text-white relative w-full">
-          <div className="absolute  top-20 lg:top-40 left-4 lg:left-20 w-[90%] lg:w-[55%]">
+          <div className="absolute  top-20 lg:top-28 left-4 lg:left-20 w-[90%] lg:w-[55%]">
             <div className="text-[3.25rem] sm:text-[4.25rem] lg:text-[5.25rem] font-[700] leading-[60px] sm:leading-[70px] lg:leading-[90px] lg:mt-10 mb-3 font-['Source Sans Pro']">
               Taking Care Of Your Smile
             </div>
@@ -62,8 +62,6 @@ function Hero() {
                     />
                   </div>
 
-
-
                   <div className="">
                     <div className="w-full sm:py-0 py-3 sm:mb-0 mb-5">
                       <label
@@ -89,10 +87,6 @@ function Hero() {
                     <TbCalendarEvent size={22} color="" className="" />
                     <h1>Book Dental </h1>
                   </div>
-
-
-
-                  
                 </div>
               </div>
             </div>

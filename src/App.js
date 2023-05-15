@@ -10,12 +10,13 @@ import Product from "./pages/Product";
 import Cart from "./pages/Cart";
 import Checkout from "./pages/Checkout";
 import MyAccount from "./pages/MyAccount";
+import ScrollToTop from "./components/Shared/ScrollToTop";
 
 function App() {
   return (
     <div className="App">
       <BrowserRouter>
-      
+        <ScrollToTop />
         <Routes>
           <Route exact path="/" element={<Home />} />
           <Route exact path="/about" element={<AboutPage />} />
