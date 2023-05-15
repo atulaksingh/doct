@@ -14,7 +14,7 @@ function Hero() {
       >
         <div className="text-white relative w-full">
           <div className="absolute  top-20 lg:top-40 left-4 lg:left-20 w-[90%] lg:w-[55%]">
-            <div className="text-[3.25rem] sm:text-[4.25rem] lg:text-[5.25rem] font-[700] leading-[60px] sm:leading-[70px] lg:leading-[90px] lg:mt-10 mb-3 ">
+            <div className="text-[3.25rem] sm:text-[4.25rem] lg:text-[5.25rem] font-[700] leading-[60px] sm:leading-[70px] lg:leading-[90px] lg:mt-10 mb-3 font-['Source Sans Pro']">
               Taking Care Of Your Smile
             </div>
             <div>

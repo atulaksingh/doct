@@ -3,7 +3,7 @@ import { useState } from "react";
 import { HiOutlineLocationMarker } from "react-icons/hi";
 import { RiSearchLine } from "react-icons/ri";
 import { TbCalendarEvent } from "react-icons/tb";
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import Hidenav from "./Hidenav";
 import SmNav from "./SmNav";
 function Header() {
@@ -15,10 +15,9 @@ function Header() {
 
   return (
     <>
-    <div className="lg:hidden block">
-
-    <SmNav />
-    </div>
+      <div className="lg:hidden block">
+        <SmNav />
+      </div>
       {/* <div className="">{status ? <Hidenav nav={navtoggle} /> : null}</div> */}
       <div className="bg-transparent lg:bg-white relative lg:block hidden">
         <div className="bg-white fixed top-0 left-0 right-0 z-10">
@@ -45,14 +44,20 @@ function Header() {
             <div className="  flex justify-between w-full align-middle items-center">
               <div className=" flex justify-start  align-middle uppercase items-center gap-10">
                 <Link to={"/"}>
-                  <h1 className="text-[17px] font-[400] cursor-pointer hidden lg:block">
+                  <a
+                    className="text-[17px] font-[400] cursor-pointer hidden lg:block"
+                    href="/"
+                  >
                     Home
-                  </h1>
+                  </a>
                 </Link>
                 <Link to={"/about"}>
-                  <h1 className="text-[17px] font-[400] cursor-pointer hidden lg:block">
+                  <a
+                    href="/about"
+                    className="text-[17px] font-[400] cursor-pointer hidden lg:block"
+                  >
                     About
-                  </h1>
+                  </a>
                 </Link>
                 <div class="group inline-block relative ">
                   <button class=" py-2  rounded inline-flex  text-[17px] font-[400]  cursor-pointer ">
@@ -156,7 +161,6 @@ function Header() {
                     </div>
                   </ul>
                 </div>
-              
               </div>
               <div>
                 <div className=" flex justify-between w-full align-middle items-center gap-5 ">

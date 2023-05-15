@@ -140,7 +140,6 @@ function ContactUs() {
                     </select>
                   </div>
 
-
                   <div class="mb-6">
                     <label
                       for="default-input"
@@ -155,7 +154,9 @@ function ContactUs() {
                       class="bg-white border border-gray-300 text-gray-900 text-sm rounded-sm  block focus:outline-teal-500 w-full p-3 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white  "
                     />
                   </div>
-               
+                  <button className="w-full border border-white py-3 px-6 font-[500] bg-[#01cab8] text-white hover:bg-[#fff] hover:text-[#02e2be]">
+                    Meet Our Team
+                  </button>
                 </form>
               </div>
             </div>

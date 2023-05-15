@@ -14,7 +14,7 @@ import HeroCard from "../components/Card/HeroCard";
 function Home() {
   return (
     <>
-      <div>
+      <div className="">
         <Header />
         <Hero />
         {/* <HeroCard /> */}

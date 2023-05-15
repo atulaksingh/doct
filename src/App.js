@@ -15,11 +15,12 @@ function App() {
   return (
     <div className="App">
       <BrowserRouter>
+      
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<AboutPage />} />
           <Route path="/pages/gridview" element={<GridView />} />
-          <Route path="/pages/columns" element={<Columns />} />     
+          <Route path="/pages/columns" element={<Columns />} />
           <Route path="/shop/products" element={<Product />} />
           <Route path="/shop/cart" element={<Cart />} />
           <Route path="/shop/checkout" element={<Checkout />} />
