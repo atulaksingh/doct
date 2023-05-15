@@ -10,12 +10,14 @@ import ContactUs from '../components/Home/ContactUs';
 import Map from '../components/Home/Map';
 import Footer from '../components/Shared/Footer';
 import Header from '../components/Shared/Header';
+import HeroCard from "../components/Card/HeroCard";
 function Home() {
   return (
     <>
       <div>
         <Header />
         <Hero />
+        {/* <HeroCard /> */}
         <Appointment />
         <TopRanked />
         <PS />

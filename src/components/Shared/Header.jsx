@@ -54,7 +54,7 @@ function Header() {
                     About
                   </h1>
                 </Link>
-                <div class="group inline-block relative hidden lg:block">
+                <div class="group inline-block relative ">
                   <button class=" py-2  rounded inline-flex  text-[17px] font-[400]  cursor-pointer ">
                     <span class="">PAGES</span>
                   </button>
@@ -156,9 +156,7 @@ function Header() {
                     </div>
                   </ul>
                 </div>
-                <h1 className="text-[17px] font-[400] cursor-pointer hidden lg:block">
-                  elements
-                </h1>
+              
               </div>
               <div>
                 <div className=" flex justify-between w-full align-middle items-center gap-5 ">
