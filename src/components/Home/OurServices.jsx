@@ -24,7 +24,13 @@ function OurServices() {
                 </div>
                 <div className="grid grid-cols-1 lg:grid-cols-3">
                   <div className="col-span-1 my-5">
-                    <CgSmile size={40} color="#27b6d2" />
+                    {/* <CgSmile size={40} color="#27b6d2" /> */}
+                    <div>
+                      <img
+                        className="w-20"
+                        src="https://res.cloudinary.com/dt0j68vdr/image/upload/v1684312529/Group_13169_n0t0ee.png"
+                      />
+                    </div>
                     <div className="text-lg font-[500] py-2">
                       General Dentistry
                     </div>
@@ -40,7 +46,12 @@ function OurServices() {
                     </div>
                   </div>
                   <div className="col-span-1 my-5">
-                    <CgSmile size={40} color="#27b6d2" />
+                    <div>
+                      <img
+                        className="w-20"
+                        src="https://res.cloudinary.com/dt0j68vdr/image/upload/v1684312308/Group_13171_uwj0iw.png"
+                      />
+                    </div>
                     <div className="text-lg font-[500] py-2">
                       General Dentistry
                     </div>
@@ -56,7 +67,33 @@ function OurServices() {
                     </div>
                   </div>
                   <div className="col-span-1 my-5">
-                    <CgSmile size={40} color="#27b6d2" />
+                    <div>
+                      <img
+                        className="w-20"
+                        src="https://res.cloudinary.com/dt0j68vdr/image/upload/v1684312309/Group_13170_pll8ak.png"
+                      />
+                    </div>
+                    <div className="text-lg font-[500] pb-2 pt-4 lg:pt-10">
+                      General Dentistry
+                    </div>
+                    <div className="text-[#747576e4]">
+                      Integer vel nisl varius, finibus orci et, congue sapien
+                      fusce.
+                    </div>
+                    <div className="flex text-[#01cab8] justify-start align-middle items-center gap-1 py-3">
+                      <div className="">Read More </div>
+                      <div className="mt-1">
+                        <BsArrowRightShort size={20} />
+                      </div>
+                    </div>
+                  </div>
+                  <div className="col-span-1 my-5">
+                    <div>
+                      <img
+                        className="w-20"
+                        src="https://res.cloudinary.com/dt0j68vdr/image/upload/v1684312309/Group_13167_ievssh.png"
+                      />
+                    </div>
                     <div className="text-lg font-[500] py-2">
                       General Dentistry
                     </div>
@@ -72,7 +109,12 @@ function OurServices() {
                     </div>
                   </div>
                   <div className="col-span-1 my-5">
-                    <CgSmile size={40} color="#27b6d2" />
+                    <div>
+                      <img
+                        className="w-16"
+                        src="https://res.cloudinary.com/dt0j68vdr/image/upload/v1684312311/Group_13168_moad1h.png"
+                      />
+                    </div>
                     <div className="text-lg font-[500] py-2">
                       General Dentistry
                     </div>
@@ -88,7 +130,12 @@ function OurServices() {
                     </div>
                   </div>
                   <div className="col-span-1 my-5">
-                    <CgSmile size={40} color="#27b6d2" />
+                    <div>
+                      <img
+                        className="w-20"
+                        src="https://res.cloudinary.com/dt0j68vdr/image/upload/v1684313007/Group_13165_1_iuhkua.png"
+                      />
+                    </div>
                     <div className="text-lg font-[500] py-2">
                       General Dentistry
                     </div>
@@ -104,7 +151,12 @@ function OurServices() {
                     </div>
                   </div>
                   <div className="col-span-1 my-5">
-                    <CgSmile size={40} color="#27b6d2" />
+                    <div>
+                      <img
+                        className="w-20"
+                        src="https://res.cloudinary.com/dt0j68vdr/image/upload/v1684312310/Group_13166_rzfvnv.png"
+                      />
+                    </div>
                     <div className="text-lg font-[500] py-2">
                       General Dentistry
                     </div>
@@ -120,7 +172,12 @@ function OurServices() {
                     </div>
                   </div>
                   <div className="col-span-1 my-5">
-                    <CgSmile size={40} color="#27b6d2" />
+                    <div>
+                      <img
+                        className="w-20"
+                        src="https://res.cloudinary.com/dt0j68vdr/image/upload/v1684313100/Group_13164_1_nl6zon.png"
+                      />
+                    </div>
                     <div className="text-lg font-[500] py-2">
                       General Dentistry
                     </div>
@@ -136,23 +193,12 @@ function OurServices() {
                     </div>
                   </div>
                   <div className="col-span-1 my-5">
-                    <CgSmile size={40} color="#27b6d2" />
-                    <div className="text-lg font-[500] py-2">
-                      General Dentistry
+                    <div>
+                      <img
+                        className="w-20"
+                        src="https://res.cloudinary.com/dt0j68vdr/image/upload/v1684313166/Group_13163_1_ngvst1.png"
+                      />
                     </div>
-                    <div className="text-[#747576e4]">
-                      Integer vel nisl varius, finibus orci et, congue sapien
-                      fusce.
-                    </div>
-                    <div className="flex text-[#01cab8] justify-start align-middle items-center gap-1 py-3">
-                      <div className="">Read More </div>
-                      <div className="mt-1">
-                        <BsArrowRightShort size={20} />
-                      </div>
-                    </div>
-                  </div>
-                  <div className="col-span-1 my-5">
-                    <CgSmile size={40} color="#27b6d2" />
                     <div className="text-lg font-[500] py-2">
                       General Dentistry
                     </div>

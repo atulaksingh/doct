@@ -11,7 +11,7 @@ function PS() {
             src="https://res.cloudinary.com/dt0j68vdr/image/upload/v1683271219/background_home_03-02_id27ed.jpg"
             style={{width:"100%" , height: "100%",objectFit:"cover" }}
           />
-          <div className="absolute top-3 h-[100vh] lg:h-full lg:top-10 lg:left-24 w-[100%] lg:w-[40%] py-20 px-5 lg:px-0 ">
+          <div className="absolute top-1 h-[100vh] lg:h-full lg:top-10 lg:left-24 w-[100%] lg:w-[40%] py-10 px-5 lg:px-0 ">
             <h1 className="text-[1.125rem] text-[#01cab8] font-[500] py-2">
               Product & Services
             </h1>
