@@ -28,6 +28,7 @@ function App() {
           <Route exact path="/shop/cart" element={<Cart />} />
           <Route exact path="/shop/checkout" element={<Checkout />} />
           <Route exact path="/shop/my-account" element={<MyAccount />} />
+          <Route exact path="/gridpostpage" element={<GridPostPage />} />
         </Routes>
       </BrowserRouter>
     </div>

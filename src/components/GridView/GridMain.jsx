@@ -6,7 +6,7 @@ function GridMain() {
   return (
     <>
     <div>
-    <BgCard />
+    <BgCard title="Our News" desp="Efficiently unleash cross-media information without cross-media value quickly max." />
     </div>
       <div className="bg-white ">
         <div className="py-20">

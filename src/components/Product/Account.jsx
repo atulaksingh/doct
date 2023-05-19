@@ -6,7 +6,7 @@ function Account() {
     <>
       <div>
         <div>
-          <BgCard />
+          <BgCard title="Account" desp="Efficiently unleash cross-media information without cross-media value quickly max."/>
         </div>
         <div className="bg-[#f3fcff] text-black ">
           <div className="mx-2 lg:mx-16 bg-white p-4  md::p-7 ">

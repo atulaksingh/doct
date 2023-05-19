@@ -1,6 +1,6 @@
 import React from "react";
 
-function BgCard() {
+function BgCard(props) {
   return (
     <>
       <div>
@@ -12,10 +12,11 @@ function BgCard() {
           }}
         >
           <div className="absolute  top-16 md:top-60 left-5 sm:left-20 text-white w-[60%] sm:w-[50%] lg:w-[45%]">
-            <h1 className="text-[3rem] sm:text-[3.75rem] lg:text-[4.75rem] font-[700]">Portfolio</h1>
+            <h1 className="text-[3rem] sm:text-[3.75rem] lg:text-[4.75rem] font-[700]">
+              {props.title}
+            </h1>
             <div className="text-[1.125rem] sm:text-[1.25rem] lg:text-[1.375rem]">
-              Nanotechnology immersion along the information highway will close
-              the loop solely.
+           {props.desp}
             </div>
           </div>
         </div>

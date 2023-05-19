@@ -8,7 +8,7 @@ function GridView() {
 <>
     <div>
     <Header />
-        <GridMain />
+        <GridMain  />
         <Footer />
     </div>
 </>

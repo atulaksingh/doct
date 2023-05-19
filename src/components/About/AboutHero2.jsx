@@ -1,5 +1,8 @@
 import React from "react";
+import { BsFillHeartPulseFill } from "react-icons/bs";
 import { CgSmile } from "react-icons/cg";
+import { RiNurseFill } from "react-icons/ri";
+import { TbWorld } from "react-icons/tb";
 
 function AboutHero2() {
   return (
@@ -50,7 +53,7 @@ function AboutHero2() {
                     <div className="col-span-1 bg-[#fafdff] rounded-xl lg:w-64">
                       <div className="px-8 py-16">
                         <div>
-                          <CgSmile size={40} color="#01cab8" />
+                          <TbWorld size={40} color="#01cab8" />
                           <div className="text-lg font-[500] py-2 text-[#142958]">
                             {" "}
                             Experience
@@ -66,7 +69,7 @@ function AboutHero2() {
                     <div className="col-span-1 bg-[#fafdff] rounded-xl lg:w-64">
                       <div className="px-8 py-16">
                         <div>
-                          <CgSmile size={40} color="#01cab8" />
+                          <BsFillHeartPulseFill size={40} color="#01cab8" />
                           <div className="text-lg font-[500] py-2 text-[#142958]">
                             {" "}
                             Experience
@@ -82,7 +85,7 @@ function AboutHero2() {
                     <div className="col-span-1 bg-[#fafdff] rounded-xl lg:w-64">
                       <div className="px-8 py-16">
                         <div>
-                          <CgSmile size={40} color="#01cab8" />
+                          <RiNurseFill size={40} color="#01cab8" />
                           <div className="text-lg font-[500] py-2 text-[#142958]">
                             {" "}
                             Experience

@@ -5,7 +5,7 @@ function CheckoutMain() {
   return (
     <>
       <div>
-        <BgCard />
+        <BgCard  title="Checkout" desp="Efficiently unleash cross-media information without cross-media value quickly max." />
         <div className="bg-[#f3fcff] text-black ">
           <div className="mx-2 lg:mx-16 bg-white p-4 md:p-7 ">
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-10">

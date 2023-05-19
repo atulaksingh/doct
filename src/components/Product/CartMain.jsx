@@ -5,7 +5,7 @@ function CartMain() {
   return (
     <>
       <div>
-        <BgCard />
+        <BgCard  title="Cart" desp="Efficiently unleash cross-media information without cross-media value quickly max."  />
         <div className="bg-white text-text-black py-20">
           <div className="mx-5 lg:mx-16">
             <div className="md:block hidden">

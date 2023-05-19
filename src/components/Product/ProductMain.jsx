@@ -6,7 +6,7 @@ function ProductMain() {
   return (
     <>
       <div>
-        <BgCard />
+        <BgCard title="Our Shop" desp="Efficiently unleash cross-media information without cross-media value quickly max."/>
         <div className="py-20 bg-white">
           <div className="grid grid-cols-12 mx-5 lg:mx-16  mt-10 lg:gap-10">
             <div className="col-span-12 lg:col-span-9">

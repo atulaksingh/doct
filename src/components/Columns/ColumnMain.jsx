@@ -6,7 +6,7 @@ function ColumnMain() {
   return (
     <>
       <div>
-        <BgCard />
+        <BgCard title="Portfolio" desp="Nanotechnology immersion along the information highway will close the loop solely."/>
       </div>
       <div className="bg-white text-black">
         <div className="lg:py-20">
