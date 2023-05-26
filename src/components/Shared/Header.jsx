@@ -4,7 +4,6 @@ import { HiOutlineLocationMarker } from "react-icons/hi";
 import { RiSearchLine } from "react-icons/ri";
 import { TbCalendarEvent } from "react-icons/tb";
 import { Link, NavLink } from "react-router-dom";
-import Hidenav from "./Hidenav";
 import SmNav from "./SmNav";
 function Header() {
   const [status, setStatus] = useState(false);
@@ -18,7 +17,6 @@ function Header() {
       <div className="lg:hidden block">
         <SmNav />
       </div>
-      {/* <div className="">{status ? <Hidenav nav={navtoggle} /> : null}</div> */}
       <div className="bg-transparent lg:bg-white relative lg:block hidden">
         <div className="bg-white fixed top-0 left-0 right-0 z-10">
           <div className="flex gap-5 lg:gap-10 mx-5 ">
